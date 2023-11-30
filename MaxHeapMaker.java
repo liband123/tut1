@@ -27,6 +27,8 @@ public class MaxHeapMaker {
 		int l = 2 * i + 1;
 		int r = 2 * i + 2;
 		int s = 2*i +2;
+		int f=2*i;
+
 
 		// Check if the left child is larger than the current node
 		if (l < n && input[l] > input[largest]) {
